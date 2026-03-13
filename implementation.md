@@ -2,6 +2,10 @@
 
 This document explains how the bird classification project works from first principles, then connects those ideas to the actual code in the notebook and the Streamlit app.
 
+## Dataset Attribution
+
+This project uses the [chriamue/bird-species-dataset](https://huggingface.co/datasets/chriamue/bird-species-dataset) from Hugging Face as the underlying bird image dataset and metadata source. It provides the 525 bird species classes used throughout the notebook, the label mapping script, and the Streamlit application.
+
 ## 1. The Core Idea
 
 The goal of this project is to take an input image of a bird and predict which one of 525 bird species it belongs to.

@@ -2,6 +2,10 @@
 
 This repository contains a deep learning project for classifying 525 different bird species from images. It includes the experimental training pipeline as well as a production-ready Streamlit web application for running local inference.
 
+## Dataset Attribution
+
+This project uses the [chriamue/bird-species-dataset](https://huggingface.co/datasets/chriamue/bird-species-dataset) published on Hugging Face. The dataset contains 525 bird species and is the source of the images and label metadata used for training, evaluation, and local inference.
+
 ## Project Architecture and Methodology
 
 The core of this project utilizes Transfer Learning via the ResNet18 convolutional neural network architecture.
